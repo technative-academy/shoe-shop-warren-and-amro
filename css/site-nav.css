@@ -1,0 +1,17 @@
+.site-nav {
+    
+} 
+
+.site-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+    /* gap: 15px; */
+
+}
+
+.site-nav-link {
+    padding-right: 15px
+}
