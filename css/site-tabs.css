@@ -1,3 +1,13 @@
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  /* width: 70%; */
+  gap: 100px;
+}
+
 .tabs--top {
   flex-direction: column;
 }
@@ -99,7 +109,7 @@
 
 /* Tab Contents */
 .tabs__contents {
-  flex: 2;
+  flex: 1;
 }
 
 .tabs__content {
@@ -120,6 +130,8 @@
 
 .tabs__image {
   flex: 1;
-  margin-top: 80px;
-  margin-left: 20px;
+  /* margin-top: 80px; */
+  /* margin-left: 20px; */
+  /* removes white bacgrkound */
+  mix-blend-mode: multiply;
 }
