@@ -32,4 +32,9 @@
 .site-facts-image {
     height: 64px;
     width: 64px;
+    object-fit: contain;
+}
+
+.fact-title {
+    font-weight: bold;
 }
