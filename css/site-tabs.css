@@ -37,6 +37,7 @@
 
 /* Tab Button */
 .tabs__button {
+  color: black;
   cursor: pointer;
   background: none;
   padding: 10px;
