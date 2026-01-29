@@ -1,0 +1,11 @@
+.site-statistics {
+    padding: 60px;
+    width: 70%;
+    border-radius: 12px;
+    background-color: var(--colour-statistic-box);
+    margin-top: 50px;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 800;
+}

@@ -53,6 +53,7 @@
 .site-footer-text {
     margin: 12px 0px;
     font-family: Inter, system-ui, sans-serif;
+    cursor: pointer;
 }
 
 .site-footer-socials {
