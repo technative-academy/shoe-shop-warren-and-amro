@@ -1,0 +1,60 @@
+.site-footer {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: space-between; */
+
+    background-color: rgb(57, 54, 54);
+    color: white;
+    list-style: none
+
+}
+.site-footer a {
+    color: white;
+    text-decoration: none; 
+}
+
+.container-nav {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: space-between;
+}
+.container-nav-b {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    border-top: solid grey 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.nav{
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.nav-b{
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;       /* This aligns the li items horizontally */
+    flex-direction: row; /* This is the default, but good for clarity */
+}
+
+.nav-item-header {
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    flex-grow: 1;
+}
+.nav-item {
+    color: white;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
