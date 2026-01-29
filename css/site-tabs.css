@@ -135,3 +135,15 @@
   /* removes white bacgrkound */
   mix-blend-mode: multiply;
 }
+
+.tabs__circular-image {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  border: 1px solid rgb(174, 173, 173);
+}
+
+.tabs__button-bottom {
+  display: flex;
+  flex-direction: column;
+}
