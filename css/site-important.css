@@ -1,7 +1,10 @@
 .container {
     display: flex;
     width: 90%;
-    height: 90%;
+    /* height: 90%; */
+    flex-grow: 1;
+    align-items: center;
+    overflow: hidden; /* Prevents anything from 'bleeding' out */
 }
 .column {
     /* background: rgb(200 200 200 / 0.6);
@@ -11,20 +14,22 @@
 }
 
 article {
-    /* flex: 1; */
-    width: 100%;
+    flex: 1;
+    /* width: 100%; */
+    /* height: auto; */
 }
 aside {
-    /* flex: 1; */
+    flex: 1;
     width: 90%;
-    height: 90%;
+    /* height: 90%; */
+    /* height: auto; */
 }
 
 button {
     color: white;
     background-color: rgba(116, 124, 232, 0.667);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
     height: 15%;
 }
 
@@ -36,4 +41,5 @@ button {
     border-width: 4px;
     border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    object-fit: cover;
 }
