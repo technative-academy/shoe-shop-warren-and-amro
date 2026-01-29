@@ -1,3 +1,5 @@
 .site-header {
     text-align: center;
+    background-color: rgba(238, 241, 244, 0.5);
+    padding: 20px 0px;
 }

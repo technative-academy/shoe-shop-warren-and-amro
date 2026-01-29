@@ -8,10 +8,22 @@
     flex-direction: row;
     justify-content: center;
     padding-left: 0;
+    
     /* gap: 15px; */
 
 }
 
 .site-nav-link {
-    padding-right: 15px
+    padding-right: 35px;
+
+    a {
+        text-decoration: none;
+        color: rgb(78, 74, 74);
+        font-size: 18px;
+    }
+}
+
+.site-nav-link a:hover {
+    color: var(--colour-statistic-box);
+    transition: all 0.5s;
 }
